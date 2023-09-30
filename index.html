@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accio Food Delivery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav
+      class="d-flex position-sticky justify-content-around align-items-center py-4"
+    >
+      <div>
+        <a href="#"
+          ><img src="./assets/food_delivery_logo.svg" alt="food_delivery"
+        /></a>
+      </div>
+
+      <div class="nav_links d-flex align-items-center">
+        <ul class="d-flex pt-2">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#shop">Food</a></li>
+          <li><a href="#shop">Recipes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <form class="form d-flex align-items-center justify-content-between">
+        <div class="nav_search searchbar me-3">
+          <input id="search" type="text" placeholder=" Search your item " />
+          <button id="searchbutton">
+            <i class="fa-solid fa-magnifying-glass" style="color: #616670"></i>
+          </button>
+        </div>
+        <img class="mx-3" src="./assets/serach_icon.svg" alt="shop_bag" />
+        <button class="btn_nav py-2 px-4">Sign In</button>
+      </form>
+    </nav>
+
+    <main>
+      <div id="home" class="hero-section">
+        <div class="hero-col-1">
+          <div>
+            More than faster
+            <img src="./assets/popcorn.svg" alt="french fries" />
+          </div>
+          <h1>
+            Get your cuisine delivered right to<span style="color: #f94a3d">
+              your door</span
+            >
+          </h1>
+          <p>
+            Food that is delivered at the right time. The trendy food delivery
+            partner. Good food is what we deliver. Your hunger companion.
+          </p>
+          <button class="btn_nav">Explore food</button>
+        </div>
+        <div class="hero-col-2">
+          <img
+            src="./assets/Hero_section_image.png"
+            alt="delivery man in hero section"
+          />
+        </div>
+      </div>
+      <div id="about" class="about-us">
+        <div class="intro-about-us">
+          <h1>Why we are Best in our Town</h1>
+          <p>
+            whole grains and low-fat dairy can help to reduce your risk of heart
+            disease by maintaining blood pressure and
+          </p>
+        </div>
+        <div class="my-card-outline-1">
+          <div class="my-card">
+            <img src="./assets/chicken.svg" />
+            <p>
+              Choose<br />
+              your favorite food
+            </p>
+          </div>
+        </div>
+        <div class="my-card-outline">
+          <div class="my-card">
+            <img src="./assets/Scooter.svg" />
+            <p>
+              Get delivery <br />
+              at your <br />door step
+            </p>
+          </div>
+        </div>
+        <div class="my-card-outline-3">
+          <div class="my-card">
+            <img src="./assets/mobile.svg" />
+            <p>We have 400+ Review On our app</p>
+          </div>
+        </div>
+      </div>
+      <div id="shop" class="recipes food special">
+        <h1>Try Our Special Recipes</h1>
+        <div class="special-nav">
+          <a href="#">Fast Food</a>
+          <a href="#">Rice Menu</a>
+          <a href="#">Deserts</a>
+          <a href="#">Coffee</a>
+          <a href="#">Pizza</a>
+          <a href="#">More</a>
+        </div>
+        <div class="special-items">
+          <div class="my-card-outline-1 card_1">
+            <div class="my-card">
+              <img src="./image/CrispyFriedChicken.svg" />
+
+              <img src="./image/star.svg" alt="5star" />
+              <h6 class="fw-bolder">Crispy Fried Chicken</h6>
+              <p class="text-secondary fs-6">
+                Price <span class="text-danger fw-bold">$13.00</span>
+              </p>
+              <button class="btn border-2  border-danger text-danger rounded-3">
+                Add to Cart+
+              </button>
+            </div>
+          </div>
+
+          <div class="my-card-outline card_2">
+            <div class="my-card">
+              <img src="./image/Burger Patty Recipe.svg" />
+
+              <img src="./image/star.svg" alt="5star" />
+              <h6 class="fw-bolder">Burger Patty Recipe</h6>
+              <p class="text-secondary fs-6">
+                Price <span class="text-danger fw-bold">$15.00</span>
+              </p>
+              <button class="btn border-2  border-danger text-danger rounded-3">
+                Add to Cart+
+              </button>
+            </div>
+          </div>
+
+          <div class="my-card-outline-1 card_3">
+            <div class="my-card">
+              <img src="./image/musttrydishes.svg" />
+
+              <img src="./image/star.svg" alt="5star" />
+              <h6 class="fw-bolder">Must Try Dishes</h6>
+              <p class="text-secondary fs-6">
+                Price <span class="text-danger fw-bold">$18.00</span>
+              </p>
+              <button class="btn border-2  border-danger text-danger rounded-3">
+                Add to Cart+
+              </button>
+            </div>
+          </div>
+
+          <div class="my-card-outline-1 card_4">
+            <div class="my-card">
+              <img src="./image/tastyfrenchfries.svg" />
+
+              <img src="./image/star.svg" alt="5star" />
+              <h6 class="fw-bolder">Tasty French Fries</h6>
+              <p class="text-secondary fs-6">
+                Price <span class="text-danger fw-bold">$20.00</span>
+              </p>
+              <button class="btn border-2  border-danger text-danger rounded-3">
+                Add to Cart+
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="company-section">
+        <div class="company-col-1">
+          <div class="company-box">
+            <div class="company-image">
+              <img src="managers/mg1.svg" height="100%" />
+            </div>
+            <div class="company-name">
+              <h5>Rosele Desoza</h5>
+              <p>Marketing Coordinator</p>
+            </div>
+          </div>
+          <div class="company-box">
+            <div class="company-image">
+              <img src="./managers/mg2.svg" height="100%" />
+            </div>
+            <div class="company-name">
+              <h5>Shushant Singh</h5>
+              <p>Web Designer</p>
+            </div>
+          </div>
+          <div class="company-box">
+            <div class="company-image">
+              <img src="./managers/mg3.svg" height="100%" />
+            </div>
+            <div class="company-name">
+              <h5>SK Abraham</h5>
+              <p>President of Sales</p>
+            </div>
+          </div>
+          <div class="company-box">
+            <div class="company-image">
+              <img src="./managers/mg4.svg" height="100%" />
+            </div>
+            <div class="company-name">
+              <h5>Rebecca Sunzo</h5>
+              <p>Marketing Coordinator</p>
+            </div>
+          </div>
+        </div>
+        <div class="vertical-line-2">
+          <div class="vertical-line-3"></div>
+        </div>
+        <div class="company-col-2">
+          <h1>
+            What our Customers <span style="color: #f94a3d">are saying</span>
+          </h1>
+          <div class="company-col-2-row-2">
+            <div>
+              <h6>Rosele Desoza</h6>
+              <p>Marketing Coordinator</p>
+            </div>
+            <img src="./image/star.svg" />
+          </div>
+          <div class="horizontal-line-1"></div>
+          <p>
+            “Having good restaurant reviews is crucial these days. It is not
+            just making our decision to pick one easier, it is also helping the
+            restaurant be more successful. You can quickly copy and paste these
+            good restaurant review examples, publish them on Facebook”
+          </p>
+        </div>
+      </div>
+
+      <div class="footer_hero_section">
+        <img src="./assets/footer_hero.svg" />
+      </div>
+
+      <div  class="footer">
+        <div class="footer-col-1">
+          <img src="./assets/food_delivery_logo.svg" />
+          <p>
+            Retail food delivery is a courier service in which a restaurant,
+            store, or independent food-delivery
+          </p>
+          <i class="footer-social-icons fa-brands fa-facebook"></i>
+          <i class="footer-social-icons fa-brands fa-square-twitter"></i>
+          <i class="footer-social-icons fa-brands fa-linkedin"></i>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Service</th>
+              <th>Support</th>
+              <th>Contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>About us</td>
+              <td>Order Tracking</td>
+              <td>FAQ</td>
+              <td>WhatsApp</td>
+            </tr>
+            <tr>
+              <td>Blog</td>
+              <td>Wish List</td>
+              <td>Policy</td>
+              <td>Support24</td>
+            </tr>
+            <tr>
+              <td>All Products</td>
+              <td>Order Tracking</td>
+              <td>FAQ</td>
+              <td>WhatsApp</td>
+            </tr>
+            <tr>
+              <td>Locations Map</td>
+              <td>Terms & Conditions</td>
+              <td>Support Carrer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+  </body>
+</html>
