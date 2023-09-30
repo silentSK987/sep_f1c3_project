@@ -1,0 +1,3 @@
+I have created food delivery  webpage using html, css nd bootstrap.
+i have designed cards and given some css transitions...as well as maked responsive..can open in 
+different devices...
